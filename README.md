@@ -1,6 +1,7 @@
 # Airflow-Data-Pipeline-with-AWS-and-Snowflake
 
 We will use Python SDK:
+
 <img width="648" alt="Screenshot 2024-01-22 at 10 28 25" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/973d8da7-818f-4e62-9f11-81768a66fbfa">
 
 
