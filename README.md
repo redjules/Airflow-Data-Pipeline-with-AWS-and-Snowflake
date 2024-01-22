@@ -27,15 +27,18 @@ Initialize astro:
 
 
 update env and requirements:
+
 <img width="581" alt="Screenshot 2024-01-22 at 10 28 55" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/41814811-e64e-456d-aebe-f7ae339ea867">
 
 <img width="615" alt="Screenshot 2024-01-22 at 10 29 09" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/338a2a9d-86e4-4089-b7b9-ee9c773575aa">
 
 
 in Terminal: astro dev start
+
 <img width="406" alt="Screenshot 2024-01-22 at 10 29 27" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/7667e85f-ad22-4433-a1ba-8f872e8ff17f">
 
 Go to localhost 8080 and access Airflow
+
 <img width="795" alt="Screenshot 2024-01-22 at 10 29 43" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/9070c124-78b7-470f-993e-c83b2ce50690">
 
 Create orders in data Folder:
@@ -43,6 +46,7 @@ Create orders in data Folder:
 <img width="742" alt="Screenshot 2024-01-22 at 10 30 23" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/caec250f-bb21-4ab2-891b-70bae22444d9">
 
 Create s3 in AWS:
+
 <img width="660" alt="Screenshot 2024-01-22 at 10 32 38" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/e35fb0b5-609a-487f-9c3d-3a3e1201a974">
 
 We create an AWS IAM user:
@@ -79,18 +83,22 @@ Now go to VSCode and create astro_orders.py:
 <img width="694" alt="Screenshot 2024-01-22 at 11 05 20" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/847b9632-ab7b-4bac-8bf4-0d589e1cd51a">
 
 we add the decorators aql.transform:
+
 <img width="596" alt="Screenshot 2024-01-22 at 11 07 04" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/b507200e-eabe-48a1-b084-abda7c4302cf">
 
 <img width="754" alt="Screenshot 2024-01-22 at 11 07 36" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/47aed020-a8d1-46d8-a171-9ecce08da04f">
 
 we do a join between the joined data and the reporting table:
+
 <img width="744" alt="Screenshot 2024-01-22 at 11 08 35" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/7c96420b-6fb9-4927-b3fa-5eab681dd3ed">
 <img width="589" alt="Screenshot 2024-01-22 at 11 09 17" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/d2d67e64-779a-41df-8d5b-0a50ae4f373f">
 
 we convert sql table into database:
+
 <img width="631" alt="Screenshot 2024-01-22 at 11 10 54" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/a6b2bd34-b836-4d7f-98a2-a5308d17cb04">
 
 we clean up the temporary tables that we have created when  we use tbale without specifying the name:
+
 <img width="778" alt="Screenshot 2024-01-22 at 11 11 38" src="https://github.com/redjules/Airflow-Data-Pipeline-with-AWS-and-Snowflake/assets/106017493/777970a9-5fe1-4924-836c-9be4d1a247e1">
 
 
